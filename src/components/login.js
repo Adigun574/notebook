@@ -34,7 +34,6 @@ function Login() {
         setEmptyCredentials(false)
         setWrongCredentials(false)
         if(!email || !password){
-            //LOGIC TO HANDLE INVALID FIELDS
             setEmptyCredentials(true)
         }
         else{
