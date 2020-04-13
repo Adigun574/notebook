@@ -1,0 +1,15 @@
+.notes-body{    
+    margin:0;
+    padding:0;
+    height: 100vh;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#555;
+    background: #ecf0f3;
+}
+.page-body{
+    /* box-sizing: border-box;
+    border:2px solid black; */
+}

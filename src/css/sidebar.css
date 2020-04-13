@@ -1,0 +1,68 @@
+.sidebar-body{
+    /* border-right:5px solid rgb(45, 6, 117); */
+    box-shadow:3px 3px 5px rgb(155, 153, 153), -3px 0 5px rgb(155, 153, 153);
+    height:85vh;
+    padding:0 30px;
+    position: relative;
+    overflow-y: auto;
+    border-radius:5px;
+    width:90%;
+    margin:auto;
+    /* height:100%; */
+}
+@media only screen and (max-width: 380px) {
+    .sidebar-body{
+        border:none;
+    }
+}
+h5 .notes{
+    text-decoration: underline;
+    color:rgb(45, 6, 117);
+    text-decoration-color: rgb(226, 186, 7);
+}
+ul .note-title{
+    list-style-type:none;
+    position: relative;
+    border-radius:5px;
+    box-shadow:3px 3px 2px rgb(155, 153, 153), -3px 0 2px rgb(155, 153, 153);
+}
+ul .note-title:hover{
+    /* transform:scale(1.02,1.02); */
+    box-shadow:3px 3px 3px rgb(45, 6, 117), -3px 0 3px rgb(45, 6, 117);
+}
+.note-title .date{
+    position:absolute;
+    right:5px;
+    bottom:1px;
+    color:rgb(226, 186, 7);
+}
+.note-title .item{
+    cursor:pointer;
+}
+.note-title .title{
+    color:rgb(45, 6, 117);
+    font-size: 14px;
+}
+.note-title .title:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(226, 186, 7);
+}
+.delete-btn{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+.button-delete{
+    padding:3px;
+    border:1px solid rgb(150, 147, 147);
+    color: rgb(150, 147, 147);
+    border-radius:2px;
+    font-size:1.5rem;
+}
+.button-delete:hover{
+    color:black;
+    border:1px solid black;
+}
+.sticky-searchbar{
+    /* position:fixed */
+}

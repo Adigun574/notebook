@@ -1,0 +1,102 @@
+.notecontent-body{
+    /* padding:30px; */
+    /* width:500px; */
+    /* width:100%; */
+}
+textarea{
+    height:60vh;
+    /* width:100%; */
+    width:800px;
+}
+.buttons{
+    display:flex;
+}
+.title-text{
+    font-weight:bold !important;
+}
+@media only screen and (max-width: 380px) {
+    textarea{
+        width:300px !important;
+    }
+    .title-text{
+        width:300px !important;
+    }
+    .buttons{
+        width:300px !important;
+    }
+    /* *{
+        background-color:blue;
+    } */
+}
+@media only screen and (max-width: 767px) and (min-width:380px) {
+    textarea{
+        width:300px !important;
+    }
+    .title-text{
+        width:300px !important;
+    }
+    .buttons{
+        width:300px !important;
+    }
+    /* *{
+        background-color: red;
+    } */
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    textarea{
+        width:200px !important;
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    textarea{
+        width:400px !important;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    textarea{
+        width:340px !important;
+    }
+    .title-text{
+        width:340px !important;
+    }
+    .buttons{
+        width:340px !important;
+    }
+    /* *{
+        background-color: yellow
+    } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    textarea{
+        width:550px !important;
+    }
+    .title-text{
+        width:550px !important;
+    }
+    .buttons{
+        width:550px !important;
+    }
+    /* *{
+        background-color: green
+    } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    textarea{
+        width:700px !important;
+    }
+    .title-text{
+        width:700px !important;
+    }
+    .buttons{
+        width:700px !important;
+    }
+}
